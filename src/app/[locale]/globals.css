@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFBFC;
+  --foreground: #010400;
+  --subtitle: #30332E;
+  --importantText: #6FB8EC;
+
+  --title-font: var(--font-jacques-francois);
+  --text-font: var(--font-karla-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #010400;
+    --foreground: #FFFBFC;
+    --subtitle: #cacaca;
+  }
+}
+
+nextjs-portal {
+  display: none;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--text-font);
+}
