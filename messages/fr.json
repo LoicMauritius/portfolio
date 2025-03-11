@@ -1,0 +1,17 @@
+{
+    "HomePage": {
+        "title": "Bonjour tout le monde!",
+        "contact": "Aller vers la page contact"
+    },
+    "Contact": {
+        "title": "Contactez-moi"
+    },
+    "navigation":{
+        "/": "Accueil",
+        "web": "Web",
+        "mobile": "mobile",
+        "other": "Autres",
+        "hobbie": "Loisirs",
+        "contact": "Contact"
+    }
+}
