@@ -5,6 +5,7 @@ import {notFound} from 'next/navigation';
 import {Locale, routing} from '@/i18n/routing';
 import { Jacques_Francois, Karla } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components";
 
 const jacquesFrancois = Jacques_Francois({
   weight: ['400'],
@@ -43,11 +44,15 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale}>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
         className={`${jacquesFrancois.variable} ${karla.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <>
+            <Header />
+            {children}
+          </>
         </NextIntlClientProvider>
       </body>
     </html>
