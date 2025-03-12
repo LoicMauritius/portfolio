@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFBFC;
+  --foreground: #010400;
+  --subtitle: #30332E;
+  --importantText: #6FB8EC;
+
+  --title-font: var(--font-jacques-francois);
+  --text-font: var(--font-karla-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #010400;
+    --foreground: #FFFBFC;
+    --subtitle: #cacaca;
+  }
+}
+
+.bg-color {
+  background-color: var(--background);
+}
+
+.title-color {
+  color: var(--foreground);
+}
+
+.text-color {
+  color: var(--foreground);
+}
+
+.subtitle-color {
+  color: var(--subtitle);
+}
+
+.important-text {
+  color: var(--importantText);
+}
+
+.font-title {
+  font-family: var(--title-font);
+}
+
+.font-text {
+  font-family: var(--text-font);
+}
+
+.shadow-header{
+  box-shadow: 3px 4px 4px 2px rgba(48, 51, 46, 0.20);
+}
+
+nextjs-portal {
+  display: none;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--text-font);
+}
