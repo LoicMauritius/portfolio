@@ -1,7 +1,7 @@
 "use client";
 
 import { Link } from "@/i18n/navigation";
-import { LanguageSwitcher, Logo, NavBar } from ".";
+import { LanguageSwitcher, Logo, NavBar, ThemeSwitcher } from ".";
 
 export const Header = () => {
 return (
@@ -11,6 +11,7 @@ return (
                 <Logo image={"LM.svg"} alt={"Mauritius Loïc"} text={"Mauritius Loïc"} style="h-10" inverted/>
             </Link>
             <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse md:flex-row-reverse gap-3 text-lg">
+                <ThemeSwitcher />
                 <LanguageSwitcher />
                 <NavBar />
             </div>

@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #FFFBFC;
   --foreground: #010400;
@@ -16,6 +18,12 @@
     --foreground: #FFFBFC;
     --subtitle: #cacaca;
   }
+}
+
+.dark{
+  --background: #010400;
+  --foreground: #FFFBFC;
+  --subtitle: #cacaca;
 }
 
 .bg-color {

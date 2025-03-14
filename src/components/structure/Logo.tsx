@@ -24,6 +24,6 @@ export const Logo = ({
             height={40}
             alt={alt}
             />
-            {text && <span className="self-center text-xl font-semibold whitespace-nowrap title-color">{text}</span>}
+            {text && <span className="self-center text-lg md:text-xl font-semibold whitespace-nowrap title-color">{text}</span>}
         </>
 )}
