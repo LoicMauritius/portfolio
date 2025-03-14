@@ -9,7 +9,7 @@
     "navigation":{
         "/": "Accueil",
         "web": "Web",
-        "mobile": "mobile",
+        "mobile": "Mobile",
         "other": "Autres",
         "hobbie": "Loisirs",
         "contact": "Contact"
