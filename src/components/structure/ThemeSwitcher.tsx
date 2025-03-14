@@ -24,8 +24,6 @@ export const ThemeSwitcher = () => {
 
     // Apply theme to document
     document.documentElement.classList.toggle("dark", newTheme === "dark")
-
-    localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
   }
 
   return (
