@@ -11,10 +11,10 @@ export const MenuItem = ({
     name
 }: MenuItemProps) => {
     return (  
-        <li>
+        <li className="block py-2 px-3 md:p-0 text-color rounded-sm">
             <Link
                 href={href}
-                className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="dark:text-white hover:text-rose-600 focus:text-rose-600 dark:hover:text-sky-300 dark:focus:text-sky-300 border-l-3 border-rose-600 dark:border-sky-300 md:border-none pl-2 md:pl-0"
             >
                 {name}
             </Link>

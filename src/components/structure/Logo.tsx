@@ -1,15 +1,29 @@
 import Image from "next/image";
 
-export const Logo = () => {
+type LogoProps = {
+    image: string;
+    alt: string;
+    text?: string;
+    inverted?: boolean;
+    style?: string;
+}
+
+export const Logo = ({
+    image,
+    alt,
+    text,
+    inverted,
+    style
+}: LogoProps) => {
     return (  
         <>
             <Image
-            src="LM.svg"
-            className="h-10 w-auto"
+            src={image}
+            className={`w-auto ${inverted && 'dark:invert'} ${style}`}
             width={40}
             height={40}
-            alt="Flowbite Logo"
+            alt={alt}
             />
-            <span className="self-center text-xl font-semibold whitespace-nowrap title-color">Mauritius Loïc</span>
+            {text && <span className="self-center text-xl font-semibold whitespace-nowrap title-color">{text}</span>}
         </>
 )}

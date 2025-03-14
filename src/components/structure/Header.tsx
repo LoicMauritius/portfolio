@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher, Logo, NavBar } from ".";
 
 export const Header = () => {
 return (
-    <nav className="bg-color border-gray-200 dark:bg-gray-900 w-full md:p-3 flex items-center justify-center">
-        <div className="max-w-screen-2xl w-full md:w-[90vw] flex flex-wrap justify-between items-center justify-between mx-auto p-4 shadow-header md:rounded-2xl">
+    <nav className="w-full flex items-center justify-center font-title">
+        <div className="max-w-screen-2xl w-full flex flex-wrap justify-between items-center justify-between p-4 md:rounded-2xl md:shadow-lg md:shadow-gray-300 md:dark:shadow-none md:dark:inset-shadow-sm md:dark:inset-shadow-sky-400">
             <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                <Logo />
+                <Logo image={"LM.svg"} alt={"Mauritius Loïc"} text={"Mauritius Loïc"} style="h-10" inverted/>
             </Link>
             <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse md:flex-row-reverse gap-3 text-lg">
                 <LanguageSwitcher />

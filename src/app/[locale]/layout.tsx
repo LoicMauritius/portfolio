@@ -46,12 +46,14 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
-        className={`${jacquesFrancois.variable} ${karla.variable} antialiased`}
+        className={`${jacquesFrancois.variable} ${karla.variable} antialiased md:p-8 md:m-2`}
       >
         <NextIntlClientProvider messages={messages}>
           <>
             <Header />
-            {children}
+            <main className="w-full max-w-screen-2xl mx-auto">
+              {children}
+            </main>
           </>
         </NextIntlClientProvider>
       </body>
