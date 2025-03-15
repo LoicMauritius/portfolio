@@ -30,7 +30,7 @@ export default function HomePage() {
                     <h1 className='font-title title-color text-2xl md:text-4xl lg:text-6xl'>{t('title')}</h1>
                     <h2 className='font-title subtitle-color text-xl md:text-2xl lg:text-4xl'>{t('subtitle')}</h2>
                     <div>
-                        <h3 className='font-title text-color text-md md:text-lg lg:text-xl' >{t('descriptionTitle')}</h3>
+                        <h3 className='font-text text-color text-md md:text-lg lg:text-xl' >{t('descriptionTitle')}</h3>
                         <p className='font-text text-color text-sm md:text-base' >{t('description')}</p>
                     </div>
                     

@@ -7,9 +7,6 @@
   --foreground: #010400;
   --subtitle: #30332E;
   --importantText: #6FB8EC;
-
-  --title-font: var(--font-jacques-francois);
-  --text-font: var(--font-karla-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,11 +53,11 @@
 }
 
 .font-title {
-  font-family: var(--title-font) !important;
+  font-family: var(--font-jacques-francois), sans-serif !important;
 }
 
 .font-text {
-  font-family: var(--text-font);
+  font-family: var(--font-karla-mono), sans-serif;
 }
 
 nextjs-portal {
