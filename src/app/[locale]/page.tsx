@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from 'next-intl';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 export default function HomePage() {
@@ -27,13 +28,43 @@ export default function HomePage() {
                 </div>
                 
                 <div className='flex flex-col gap-5 p-5 lg:w-2/3 mt-[40%] lg:mt-0'>
-                    <h1 className='font-title title-color text-2xl md:text-4xl lg:text-6xl'>{t('title')}</h1>
-                    <h2 className='font-title subtitle-color text-xl md:text-2xl lg:text-4xl'>{t('subtitle')}</h2>
-                    <div>
-                        <h3 className='font-text text-color text-md md:text-lg lg:text-xl' >{t('descriptionTitle')}</h3>
-                        <p className='font-text text-color text-sm md:text-base' >{t('description')}</p>
-                    </div>
+                    <motion.h1 
+                        className='font-title title-color text-2xl md:text-4xl lg:text-6xl'
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1 }}
+                    >
+                        {t('title')}
+                    </motion.h1>
+                    {/* Separtor Line */}
+                    <motion.div 
+                        className='flex h-[5px] w-[80px] bg-color-reverse rounded-md'
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1 }}
+                    ></motion.div>
+                    <motion.h2 
+                        className='font-title subtitle-color text-xl md:text-2xl lg:text-4xl'
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                    >
+                        {t('subtitle')}
+                    </motion.h2>
                     
+                    <motion.div 
+                        className='flex flex-col gap-2 mt-10'
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1, delay: 1 }}
+                    >
+                        <h3 className='font-text text-color text-md md:text-lg lg:text-xl'>
+                            {t('descriptionTitle')}
+                        </h3>
+                        <p className='font-text text-color text-sm md:text-base'>
+                            {t('description')}
+                        </p>
+                    </motion.div>
                 </div>
             </div>
         </>

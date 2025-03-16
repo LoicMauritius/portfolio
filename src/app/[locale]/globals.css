@@ -17,6 +17,12 @@
   }
 }
 
+.light{
+  --background: #FFFBFC;
+  --foreground: #010400;
+  --subtitle: #30332E;
+}
+
 .dark{
   --background: #010400;
   --foreground: #FFFBFC;
@@ -78,12 +84,12 @@ body {
   background: var(--background);
 }
 
-::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background-color: var(--foreground);
   border-radius: 4px;
   border: 2px solid var(--background);
 }
 
-::-webkit-scrollbar-thumb:hover {
+*::-webkit-scrollbar-thumb:hover {
   background-color: var(--foreground);
 }
