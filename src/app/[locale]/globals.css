@@ -76,6 +76,11 @@ body {
   font-family: var(--text-font);
 }
 
+*::selection {
+  background: var(--importantText);
+  color: var(--background);
+}
+
 *::-webkit-scrollbar {
   width: 5px;
 }
