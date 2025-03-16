@@ -6,14 +6,15 @@ export const ThemeSwitcher = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light")
 
   useEffect(() => {
-    // Load theme from localStorage on component mount
-    const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null
-    if (savedTheme) {
-      setTheme(savedTheme)
-      // Apply theme to document
-      document.documentElement.classList.toggle("dark", savedTheme === "dark")
-    }
-  }, [])
+    // Load theme from localStorage or system preference
+    const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+    const appliedTheme = savedTheme || systemTheme;
+    
+    setTheme(appliedTheme);
+    document.documentElement.classList.toggle("dark", appliedTheme === "dark");
+    document.documentElement.classList.toggle("light", appliedTheme === "light");
+  }, []);
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light"
@@ -24,6 +25,7 @@ export const ThemeSwitcher = () => {
 
     // Apply theme to document
     document.documentElement.classList.toggle("dark", newTheme === "dark")
+    document.documentElement.classList.toggle("light", newTheme === "light");
   }
 
   return (

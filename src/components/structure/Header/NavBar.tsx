@@ -40,7 +40,7 @@ export const NavBar = () => {
           />
         </svg>
       </button>
-      <div className={`absolute top-12 right-0 w-2/5 z-50 md:static items-center justify-between ${mobileMenuOpen ? "block" : "hidden"} md:w-full md:flex md:w-auto md:order-1 md:mr-4`} id="navbar-language">
+      <div className={`absolute top-12 right-0 font-text w-2/5 z-50 md:static items-center justify-between ${mobileMenuOpen ? "block" : "hidden"} md:w-full md:flex md:w-auto md:order-1 md:mr-4`} id="navbar-language">
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 mr-2 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:mr-0 rounded-lg shadow-sm shadow-rose-600 dark:shadow-sky-400 md:shadow-none">
                 {navItems.map((path) => {
                     const pathWithoutSlash = path === "/" ? path : path.replace(/^\/+/, "")
