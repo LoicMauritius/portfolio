@@ -1,9 +1,11 @@
 {
-    "HomePage": {
-        "title": "Hello world!",
-        "contact": "Go to the contact page"
+    "homePage": {
+        "title": "Mauritius Loïc",
+        "subtitle": "Computer Science Student",
+        "descriptionTitle": "Welcome to my website",
+        "description": "Here, you will discover all my projects as well as the areas of expertise I have developed throughout my journey in computer science."
     },
-    "Contact": {
+    "contact": {
         "title": "Contact me"
     },
     "navigation":{

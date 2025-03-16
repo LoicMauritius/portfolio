@@ -43,15 +43,17 @@ export default async function LocaleLayout({
   const messages = await getMessages();
  
   return (
-    <html lang={locale}>
+    <html lang={locale} className="w-full h-full min-h-full min-w-full overflow-hidden maw-w-full maw-h-full">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
-        className={`${jacquesFrancois.variable} ${karla.variable} antialiased`}
+        className={`${jacquesFrancois.variable} ${karla.variable} antialiased md:p-8 w-full h-full flex flex-col w-full`}
       >
         <NextIntlClientProvider messages={messages}>
           <>
             <Header />
-            {children}
+            <main className="flex-grow overflow-y-scroll overflow-x-hidden flex justify-center items-center">
+              {children}
+            </main>
           </>
         </NextIntlClientProvider>
       </body>

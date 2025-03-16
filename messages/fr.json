@@ -1,15 +1,17 @@
 {
-    "HomePage": {
-        "title": "Bonjour tout le monde!",
-        "contact": "Aller vers la page contact"
+    "homePage": {
+        "title": "Mauritius Loïc",
+        "subtitle": "Étudiant en informatique",
+        "descriptionTitle": "Bienvenue sur mon site",
+        "description": "Vous y découvrirez l’ensemble de mes projets ainsi que les domaines de spécialisation que j’ai développé tout au long de mon parcours en informatique."
     },
-    "Contact": {
+    "contact": {
         "title": "Contactez-moi"
     },
     "navigation":{
         "/": "Accueil",
         "web": "Web",
-        "mobile": "mobile",
+        "mobile": "Mobile",
         "other": "Autres",
         "hobbie": "Loisirs",
         "contact": "Contact"
