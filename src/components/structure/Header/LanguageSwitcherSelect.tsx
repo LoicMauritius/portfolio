@@ -39,7 +39,7 @@ export const LanguageSwitcherSelect = ({ defaultValue, label }:LanguageSwitcherP
             {isOpen && (
                 <ul
                     id="language"
-                    className="absolute z-99 top-14 right-10 w-auto mt-2 rounded-md border p-1 border-gray-300 shadow-sm bg-white dark:bg-gray-800 dark:border-gray-600"
+                    className="absolute z-99 top-14 md:top-30 right-9 sm:right-30 xl:right-25 w-auto mt-2 rounded-md border p-1 border-gray-300 shadow-sm bg-white dark:bg-gray-800 dark:border-gray-600"
                 >
                     {routing.locales.map((locale) => (
                         <li
