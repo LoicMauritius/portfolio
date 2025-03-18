@@ -51,7 +51,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <>
             <Header />
-            <main className="flex-grow overflow-y-scroll overflow-x-hidden flex justify-center items-center">
+            <main className="flex-grow overflow-y-scroll overflow-x-hidden flex justify-start items-start h-screen">
               {children}
             </main>
           </>
