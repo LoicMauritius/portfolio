@@ -1,17 +1,23 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { MenuItem } from "./MenuItem"
 import { navItems } from "@/i18n/routing"
 import { useTranslations } from "next-intl"
+import { usePathname } from "@/i18n/navigation"
 
 export const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const pathname = usePathname();
   const t = useTranslations('navigation')
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen)
   }
+
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [pathname]);
 
   return (
     <>
