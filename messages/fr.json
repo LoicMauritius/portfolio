@@ -15,5 +15,197 @@
         "other": "Autres",
         "hobbie": "Loisirs",
         "contact": "Contact"
+    },
+    "projects":{
+        "titres":{
+            "description": "Description du projet",
+            "fonctionnalitées": "Fonctionnalitiés",
+            "web": "Projets Web",
+            "mobile": "Projets Mobile",
+            "autres": "Autres Projets",
+            "hobbies": "Loisirs"
+        },
+        "web": [
+          {
+            "title": "Site web - Tolède",
+            "description": "Nous avons développé, avec une équipe de 3 membres, un site web informatif et responsive sur la ville de Tolède, classée au patrimoine mondial de l’UNESCO. Ce projet a été réalisé en partenariat avec l’UNESCO, avec pour objectif de fournir une plateforme immersive et accessible permettant de découvrir l’histoire, la culture et les monuments emblématiques de la ville.",
+            "technologies": [
+                "vscode",
+                "html"
+            ],
+            "fonctionnalitees_principale": [
+                "Présentation de l’histoire, de la culture et du patrimoine de Tolède",
+                "Adaptation mobile et PC pour une navigation fluide (Design responsive)",
+                "Possibilité d’afficher le contenu en plusieurs langues (Français/Anglais)"
+            ],
+            "images": ["tolede1.png", "tolede2.png"]
+          },
+          {
+            "title": "Jeu web - LexiQuest",
+            "description": "Nous avons développé LexiQuest, une application web interactive permettant aux joueurs de relier deux mots de départ en utilisant des mots intermédiaires selon leur proximité sémantique ou orthographique. Ce projet a été réalisé en groupe, combinant React/TypeScript pour l’interface utilisateur et un backend en Python/PHP/Java/C, interagissant avec une base de données MySQL.",
+            "technologies": [
+                "github",
+                "vscode",
+                "typescript",
+                "react",
+                "php",
+                "c",
+                "java"
+            ],
+            "fonctionnalitees_principale": [
+                "Algorithmes en C pour évaluer la similarité entre les mots",
+                "Interface moderne et intuitive de jeu en React/TypeScript",
+                "Intégration de WebSocket en Python pour un mode multijoueur fluide",
+                "Stockage en base de donnée des coups joué lors d’un partie"
+            ],
+            "images": ["lexiquest1.png", "lexiquest2.png"]
+          },
+          {
+            "title": "Site web - Daktari",
+            "description": "Nous avons développé un site web dynamique connecté à une base de données PostgreSQL, permettant la gestion d’une clinique vétérinaire. L’objectif était de concevoir un système complet, incluant la structuration de la base de données (MCD et MLD) et le développement d’un site fonctionnel permettant d’interagir avec celle-ci.",
+            "technologies": [
+                "vscode",
+                "postegres",
+                "php",
+                "html"
+            ],
+            "fonctionnalitees_principale": [
+                "Gestion des données relatives aux dossiers vétérinaire et stockage en base de donnée",
+                "Système de prise d erendez-vous via une interface intuitive",
+                "Système d’authentification et accès restreint selon le rôle de l’utilisateur"
+            ],
+            "images": ["daktari1.png", "daktari2.png"]
+          },
+          {
+            "title": "Dashboard - Contrôles CNIL",
+            "description": "Nous avons développé un tableau de bord interactif permettant la visualisation et l’analyse de données issues du site du Gouvernement français. L’objectif était de créer une interface claire et intuitive pour explorer des jeux de données volumineux (Big Data) et en extraire des insights pertinents.",
+            "technologies": [
+                "vscode",
+                "postegres",
+                "php",
+                "html"
+            ],
+            "fonctionnalitees_principale": [
+                "Graphiques dynamiques pour représenter les tendances et évolutions",
+                "Filtrages des données en temps réel",
+                "Stockage et mise à jour des données récupérées sur le site du Gouvernement Français",
+                "Interface web intuitive et facilité de lecture des données"
+            ],
+            "images": ["controlecnil.png"]
+          },
+          {
+            "title": "Site web de réservation de train - FR-Reservation",
+            "description": "Nous avons développé un site web de réservation de trains en utilisant Next.js et MongoDB. L’objectif était de concevoir une plateforme intuitive permettant aux utilisateurs de rechercher, réserver et gérer leurs trajets, tout en exploitant une base de données non relationnelle pour stocker efficacement les informations.",
+            "technologies": [
+                "github",
+                "vscode",
+                "next",
+                "mongo"
+            ],
+            "fonctionnalitees_principale": [
+                "Réservations de billet de trains rapide et efficace",
+                "Consultation, modification et annulation des billets",
+                "Inscription et connexion sécurisées"
+            ],
+            "images": ["fr-reservation1.png", "fr-reservation2.png"]
+          }
+        ],
+        "mobile": [
+          {
+            "title": "Application communautaire de bricolage - Bricoboulot",
+            "description": "Nous avons conçu une maquette interactive sous Figma pour une application communautaire dédiée au bricolage. L’objectif était de créer une interface intuitive intégrant les principes du design UX/UI, afin de faciliter les échanges et l’entraide entre bricoleurs amateurs et expérimentés.",
+            "technologies": [
+                "figma"
+            ],
+            "fonctionnalitees_principale": [
+                "Système de discussion et entraide entre bricoleurs",
+                "Accès à une bibliothèque de guides et astuces de bricolage",
+                "Trouver des artisans ou magasins de bricolage à proximité",
+                "Système de badges et niveaux selon l’activité des utilisateurs"
+            ],
+            "images": ["bricoboulot1.png", "bricoboulot2.png"]
+          },
+          {
+            "title": "Application mobile - La ChillZone",
+            "description": "Dans le cadre de notre formation BUT Informatique à l’Université Gustave Eiffel, nous avons développé une application mobile et web visant à améliorer le quotidien des étudiants et du personnel universitaire. L’objectif était de mener un projet complet, depuis le recueil des besoins jusqu’au développement d’un Proof of Concept (POC) fonctionnel, validant ainsi la faisabilité et l’intérêt de notre solution.",
+            "technologies": [
+                "github",
+                "vscode",
+                "typescript",
+                "react",
+                "react-native",
+                "python"
+            ],
+            "fonctionnalitees_principale": [
+                "Accès rapide à l'emplois du temps",
+                "Réservation de box acoustiques",
+                "Réservation de repas en Click and Collect",
+                "Navigation 2D et simulation de réalité augmentée",
+                "Interface PC web adaptées aux besoins Back office des fonctionnalitées ( gestion administrateurs )",
+                "Interface mobile intuitive et inclusive"
+            ],
+            "images": ["chillzone1.png", "chillzone2.png"]
+          }
+        ],
+        "other": [
+          {
+            "title": "Projet Robot Pixy",
+            "description": "Projet réalisé individuellement en terminale dans le cadre du Grand Oral, visant à concevoir un robot autonome capable de détecter et ramasser des balles de tennis. Ce fut mon premier projet mêlant électronique et informatique, me permettant de découvrir le monde de la robotique embarquée et de m’initier aux bases de la programmation fonctionnelle en langage Arduino.",
+            "technologies": [
+                "arduino"
+            ],
+            "fonctionnalitees_principale": [
+                "Le robot peut avancer, reculer et tourner pour naviguer sur son environnement",
+                "Utilisation d'un capteur de couleurs pour identifier les balles de tennis",
+                "Mécanisme permettant de récupérer les balles après détection",
+                "Contrôle des moteurs et capteurs via un microprocesseur Arduino"
+            ],
+            "images": ["Pixy1.png"]
+          },
+          {
+            "title": "Jeu vidéo - BackPackHero",
+            "description": "Nous avons développé un jeu de type rogue-like inspiré de Backpack Hero, réalisé en Java sur Eclipse. L'objectif était d'appliquer nos connaissances en programmation orientée objet (POO), gestion des événements et interfaces graphiques dans un projet ludique et concret, dans le cadre de notre formation.",
+            "technologies": [
+                "eclipse",
+                "java"
+            ],
+            "fonctionnalitees_principale": [
+                "Gestion stratégique des objets dans un sac à dos influençant les capacités du personnage",
+                "Exploration de donjons générés aléatoirement avec des combats au tour par tour",
+                "Développement d’une interface intuitive en Java avec une librairie de l’université",
+                "Navigation 2D et simulation de réalité augmentée"
+            ],
+            "images": ["backpackhero1.png", "backpackhero2.png"]
+          },
+          {
+            "title": "Jeu vidéo - Circle war",
+            "description": "Nous avons développé un jeu de boules stratégique en Python sur VS Code, conçu pour fonctionner sous Linux. Ce jeu tour par tour oppose deux joueurs qui doivent placer stratégiquement leurs boules pour couvrir la plus grande surface possible. L’objectif était d’appliquer des concepts mathématiques avancés (calculs d’intersections, gestion des collisions) tout en respectant les principes de la programmation fonctionnelle.",
+            "technologies": [
+                "github",
+                "vscode",
+                "python"
+            ],
+            "fonctionnalitees_principale": [
+                "Placement d’une boule selon l’aire de jeu, les boules de l’adversaire ou les obstacles",
+                "Calcul des intersections entre les boules et avec les obstacles et calcul de la division d'une boule en deux",
+                "Interface intuitive (menu principale, choix des variantes)"
+            ],
+            "images": ["circlewar1.png", "circlewar2.png"]
+          },
+          {
+            "title": "Projet CI/CD avec Jenkins",
+            "description": "Nous avons travaillé en groupe de 4 sur l’implémentation d’un pipeline via Jenkins pour nous familiariser avec les pratiques de l'intégration continue. L’objectif principal était de comprendre les différentes étapes du cycle de vie du développement logiciel à travers un pipeline automatisé : Code, Build, Release et Operate.",
+            "technologies": [
+                "jenkins",
+                "github"
+            ],
+            "fonctionnalitees_principale": [
+                "Pipelines d’automatisation des tâches à l'aide de Jenkins pour garantir une réactivité rapide lors des modifications de code",
+                "Création et configuration des jobs Jenkins pour chaque étape du cycle (build, test, déploiement).",
+                "Surveillance des logs et des métriques de pipeline pour garantir un processus fluide et sans erreurs."
+            ],
+            "images": ["jenkins1.png", "jenkins2.png"]
+          }
+        ]
     }
 }

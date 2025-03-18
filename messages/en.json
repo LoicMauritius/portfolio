@@ -15,5 +15,198 @@
         "other": "Others",
         "hobbie": "Hobbies",
         "contact": "Contact"
+    },
+    "projects": {
+            "titres":{
+                  "description": "Project Description",
+                  "fonctionnalitées": "Fonctionnalities",
+                  "web": "Web Projets",
+                  "mobile": "Mobile Projets",
+                  "autres": "Others Projets",
+                  "hobbies": "Hobbies"
+            },
+            "web": 
+            [
+              {
+                "title": "Site web - Tolède",
+                "description": "We developed, with a team of three members, an informative and responsive website about the city of Toledo, a UNESCO World Heritage site. This project was carried out in partnership with UNESCO, aiming to provide an immersive and accessible platform to discover the history, culture, and iconic monuments of the city.",
+                "technologies": [
+                    "vscode",
+                    "html"
+                ],
+                "fonctionnalitees_principale": [
+                    "Presentation of Toledo's history, culture, and heritage",
+                    "Mobile and PC adaptation for smooth navigation (Responsive design)",
+                    "Ability to display content in multiple languages (French/English)"
+                ],
+                "images": ["tolede1.png", "tolede2.png"]
+              },
+              {
+                "title": "Jeu web - LexiQuest",
+                "description": "We developed LexiQuest, an interactive web application that allows players to connect two starting words using intermediate words based on their semantic or orthographic proximity. This project was carried out as a team, combining React/TypeScript for the user interface with a backend in Python/PHP/Java/C, interacting with a MySQL database.",
+                "technologies": [
+                    "github",
+                    "vscode",
+                    "typescript",
+                    "react",
+                    "php",
+                    "c",
+                    "java"
+                ],
+                "fonctionnalitees_principale": [
+                    "C algorithms to evaluate word similarity",
+                    "Modern and intuitive game interface in React/TypeScript",
+                    "Integration of WebSocket in Python for a smooth multiplayer mode",
+                    "Storage of played moves in a database"
+                ],
+                "images": ["lexiquest1.png", "lexiquest2.png"]
+              },
+              {
+                "title": "Site web - Daktari",
+                "description": "We developed a dynamic website connected to a PostgreSQL database, enabling the management of a veterinary clinic. The objective was to design a complete system, including database structuring (MCD and MLD) and the development of a functional site that interacts with it.",
+                "technologies": [
+                    "vscode",
+                    "postegres",
+                    "php",
+                    "html"
+                ],
+                "fonctionnalitees_principale": [
+                    "Management of veterinary records and data storage in a database",
+                    "Appointment booking system via an intuitive interface",
+                    "Authentication system and restricted access based on user roles"
+                ],
+                "images": ["daktari1.png", "daktari2.png"]
+              },
+              {
+                "title": "Dashboard - Contrôles CNIL",
+                "description": "We developed an interactive dashboard for visualizing and analyzing data from the French Government's website. The objective was to create a clear and intuitive interface to explore large datasets (Big Data) and extract relevant insights.",
+                "technologies": [
+                    "vscode",
+                    "postegres",
+                    "php",
+                    "html"
+                ],
+                "fonctionnalitees_principale": [
+                    "Dynamic charts to represent trends and developments",
+                    "Real-time data filtering",
+                    "Storage and updating of data retrieved from the French Government website",
+                    "Intuitive web interface for easy data reading"
+                ],
+                "images": ["controlecnil.png"]
+              },
+              {
+                "title": "Site web de réservation de train - FR-Reservation",
+                "description": "We developed a train booking website using Next.js and MongoDB. The goal was to design an intuitive platform allowing users to search, book, and manage their trips while leveraging a non-relational database for efficient information storage.",
+                "technologies": [
+                    "github",
+                    "vscode",
+                    "next",
+                    "mongo"
+                ],
+                "fonctionnalitees_principale": [
+                    "Fast and efficient train ticket booking",
+                    "Consultation, modification, and cancellation of tickets",
+                    "Secure registration and login"
+                ],
+                "images": ["fr-reservation1.png", "fr-reservation2.png"]
+              }
+            ],
+            "mobile": [
+              {
+                "title": "Application communautaire de bricolage - Bricoboulot",
+                "description": "We designed an interactive mockup on Figma for a community application dedicated to DIY projects. The goal was to create an intuitive interface integrating UX/UI design principles to facilitate exchanges and mutual assistance between amateur and experienced DIYers.",
+                "technologies": [
+                    "figma"
+                ],
+                "fonctionnalitees_principale": [
+                    "Chat system and mutual help between DIY enthusiasts",
+                    "Access to a library of DIY guides and tips",
+                    "Find nearby artisans or DIY stores",
+                    "Badge and level system based on user activity"
+                ],
+                "images": ["bricoboulot1.png", "bricoboulot2.png"]
+              },
+              {
+                "title": "Application mobile - La ChillZone",
+                "description": "As part of our BUT Informatique program at Gustave Eiffel University, we developed a mobile and web application aimed at improving the daily life of students and university staff. The objective was to carry out a complete project, from gathering requirements to developing a functional Proof of Concept (POC) to validate the feasibility and interest of our solution.",
+                "technologies": [
+                    "github",
+                    "vscode",
+                    "typescript",
+                    "react",
+                    "react-native",
+                    "python"
+                ],
+                "fonctionnalitees_principale": [
+                    "Quick access to schedules",
+                    "Acoustic box reservation",
+                    "Click and Collect meal booking",
+                    "2D navigation and augmented reality simulation",
+                    "PC web interface adapted to back-office needs (admin management)",
+                    "Intuitive and inclusive mobile interface"
+                ],
+                "images": ["chillzone1.png", "chillzone2.png"]
+              }
+            ],
+            "other": [
+              {
+                "title": "Projet Robot Pixy",
+                "description": "This project was carried out individually in high school as part of my Grand Oral exam, aiming to design an autonomous robot capable of detecting and collecting tennis balls. This was my first project combining electronics and computing, allowing me to explore embedded robotics and learn the basics of functional programming in Arduino.",
+                "technologies": [
+                    "arduino"
+                ],
+                "fonctionnalitees_principale": [
+                    "The robot can move forward, backward, and turn to navigate its environment",
+                    "Use of a color sensor to identify tennis balls",
+                    "Mechanism to collect balls after detection",
+                    "Motor and sensor control via an Arduino microprocessor"
+                ],
+                "images": ["Pixy1.png"]
+              },
+              {
+                "title": "Jeu vidéo - BackPackHero",
+                "description": "We developed a rogue-like game inspired by Backpack Hero, made in Java using Eclipse. The goal was to apply our knowledge of object-oriented programming (OOP), event management, and graphical interfaces in a fun and practical project as part of our studies.",
+                "technologies": [
+                    "eclipse",
+                    "java"
+                ],
+                "fonctionnalitees_principale": [
+                    "Strategic inventory management in a backpack affecting the character's abilities",
+                    "Exploration of randomly generated dungeons with turn-based combat",
+                    "Development of an intuitive interface in Java using a university library",
+                    "2D navigation and augmented reality simulation"
+                ],
+                "images": ["backpackhero1.png", "backpackhero2.png"]
+              },
+              {
+                "title": "Jeu vidéo - Circle war",
+                "description": "We developed a strategic ball game in Python on VS Code, designed to run on Linux. This turn-based game pits two players against each other, who must strategically place their balls to cover the largest possible area. The goal was to apply advanced mathematical concepts (intersection calculations, collision management) while adhering to functional programming principles.",
+                "technologies": [
+                    "github",
+                    "vscode",
+                    "python"
+                ],
+                "fonctionnalitees_principale": [
+                    "Ball placement based on the playing area, opponent’s balls, or obstacles",
+                    "Intersection calculations between balls and obstacles, as well as splitting a ball into two",
+                    "Intuitive interface (main menu, game mode selection)"
+                ],
+                "images": ["circlewar1.png", "circlewar2.png"]
+              },
+              {
+                "title": "Projet CI/CD avec Jenkins",
+                "description": "We worked in a team of four on implementing a pipeline using Jenkins to familiarize ourselves with continuous integration practices. The main goal was to understand the various stages of the software development lifecycle through an automated pipeline: Code, Build, Release, and Operate.",
+                "technologies": [
+                    "jenkins",
+                    "github"
+                ],
+                "fonctionnalitees_principale": [
+                    "Automation pipelines using Jenkins to ensure quick responsiveness to code changes",
+                    "Creation and configuration of Jenkins jobs for each stage of the cycle (build, test, deployment)",
+                    "Monitoring pipeline logs and metrics to ensure a smooth and error-free process"
+                ],
+                "images": ["jenkins1.png", "jenkins2.png"]
+              }
+            ]
     }
 }
