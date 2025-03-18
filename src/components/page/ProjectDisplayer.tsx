@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Technologies, TechnologiesProps } from ".";
+import { Technologies } from ".";
 
 export type Project = {
     field: string;
