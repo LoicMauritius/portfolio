@@ -26,7 +26,7 @@ export const ProjectDisplayer = ({
     return (
         <>
             {images.length > 1 && field !== 'mobile'?
-                <div className="flex flex-col px-3 gap-5">
+                <div className="flex flex-col px-3 gap-5 md:px-50">
                     <h2 className="text-2xl lg:text-4xl pl-3 font-text">{title}</h2>
                     <div className="flex flex-col gap-5 font-text max-h-[800px]">
                         <div className="flex flex-col gap-3 md:flex-row md:gap-10">
@@ -66,7 +66,7 @@ export const ProjectDisplayer = ({
                     </div>
                 </div>
             :
-            <div className="flex flex-col px-3 gap-5">
+            <div className={`flex flex-col px-3 gap-5 ${field !== 'mobile'? 'md:px-50' : 'md:px-20'}`}>
                 <h2 className="text-2xl lg:text-4xl pl-3 font-text">{title}</h2>
                 <div className="flex flex-col gap-5 font-text">
                     <div className="flex flex-col gap-3 md:flex-row md:gap-20">
