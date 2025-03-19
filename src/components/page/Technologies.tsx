@@ -15,7 +15,7 @@ export const Technologies = ({
                         <Image
                             key={i}
                             src={`/technologies/${feature}.png`}
-                            className={`${feature === 'html' || feature === 'mongo' ? 'w-[70px] md:w-[150px]' : 'w-auto'} h-10 md:h-15`}
+                            className={`${feature === 'html' || feature === 'mongo' ? 'w-[70px]' : 'w-auto'} h-10`}
                             width={feature === 'html' || feature === 'mongo' ? 150 : 50}
                             height={50}
                             alt={feature}
