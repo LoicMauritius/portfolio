@@ -17,18 +17,18 @@
         "contact": "Contact"
     },
     "projects": {
-            "titres":{
+            "titles":{
                   "description": "Project Description",
                   "fonctionnalitées": "Fonctionnalities",
                   "web": "Web Projets",
                   "mobile": "Mobile Projets",
-                  "autres": "Others Projets",
+                  "other": "Others Projets",
                   "hobbies": "Hobbies"
             },
             "web": 
             [
               {
-                "title": "Site web - Tolède",
+                "title": "Website - Tolède",
                 "description": "We developed, with a team of three members, an informative and responsive website about the city of Toledo, a UNESCO World Heritage site. This project was carried out in partnership with UNESCO, aiming to provide an immersive and accessible platform to discover the history, culture, and iconic monuments of the city.",
                 "technologies": [
                     "vscode",
@@ -42,7 +42,7 @@
                 "images": ["tolede1.png", "tolede2.png"]
               },
               {
-                "title": "Jeu web - LexiQuest",
+                "title": "Web video Game - LexiQuest",
                 "description": "We developed LexiQuest, an interactive web application that allows players to connect two starting words using intermediate words based on their semantic or orthographic proximity. This project was carried out as a team, combining React/TypeScript for the user interface with a backend in Python/PHP/Java/C, interacting with a MySQL database.",
                 "technologies": [
                     "github",
@@ -62,7 +62,7 @@
                 "images": ["lexiquest1.png", "lexiquest2.png"]
               },
               {
-                "title": "Site web - Daktari",
+                "title": "Website - Daktari",
                 "description": "We developed a dynamic website connected to a PostgreSQL database, enabling the management of a veterinary clinic. The objective was to design a complete system, including database structuring (MCD and MLD) and the development of a functional site that interacts with it.",
                 "technologies": [
                     "vscode",
@@ -95,7 +95,7 @@
                 "images": ["controlecnil.png"]
               },
               {
-                "title": "Site web de réservation de train - FR-Reservation",
+                "title": "Website - FR-Reservation",
                 "description": "We developed a train booking website using Next.js and MongoDB. The goal was to design an intuitive platform allowing users to search, book, and manage their trips while leveraging a non-relational database for efficient information storage.",
                 "technologies": [
                     "github",
@@ -113,7 +113,7 @@
             ],
             "mobile": [
               {
-                "title": "Application communautaire de bricolage - Bricoboulot",
+                "title": "Community DIY application - Bricoboulot",
                 "description": "We designed an interactive mockup on Figma for a community application dedicated to DIY projects. The goal was to create an intuitive interface integrating UX/UI design principles to facilitate exchanges and mutual assistance between amateur and experienced DIYers.",
                 "technologies": [
                     "figma"
@@ -127,7 +127,7 @@
                 "images": ["bricoboulot1.png", "bricoboulot2.png"]
               },
               {
-                "title": "Application mobile - La ChillZone",
+                "title": "Mobile Software - La ChillZone",
                 "description": "As part of our BUT Informatique program at Gustave Eiffel University, we developed a mobile and web application aimed at improving the daily life of students and university staff. The objective was to carry out a complete project, from gathering requirements to developing a functional Proof of Concept (POC) to validate the feasibility and interest of our solution.",
                 "technologies": [
                     "github",
@@ -150,7 +150,7 @@
             ],
             "other": [
               {
-                "title": "Projet Robot Pixy",
+                "title": "Pixy Robot",
                 "description": "This project was carried out individually in high school as part of my Grand Oral exam, aiming to design an autonomous robot capable of detecting and collecting tennis balls. This was my first project combining electronics and computing, allowing me to explore embedded robotics and learn the basics of functional programming in Arduino.",
                 "technologies": [
                     "arduino"
@@ -164,7 +164,7 @@
                 "images": ["Pixy1.png"]
               },
               {
-                "title": "Jeu vidéo - BackPackHero",
+                "title": "Video game - BackPackHero",
                 "description": "We developed a rogue-like game inspired by Backpack Hero, made in Java using Eclipse. The goal was to apply our knowledge of object-oriented programming (OOP), event management, and graphical interfaces in a fun and practical project as part of our studies.",
                 "technologies": [
                     "eclipse",
@@ -179,7 +179,7 @@
                 "images": ["backpackhero1.png", "backpackhero2.png"]
               },
               {
-                "title": "Jeu vidéo - Circle war",
+                "title": "Video game - Circle war",
                 "description": "We developed a strategic ball game in Python on VS Code, designed to run on Linux. This turn-based game pits two players against each other, who must strategically place their balls to cover the largest possible area. The goal was to apply advanced mathematical concepts (intersection calculations, collision management) while adhering to functional programming principles.",
                 "technologies": [
                     "github",
@@ -194,7 +194,7 @@
                 "images": ["circlewar1.png", "circlewar2.png"]
               },
               {
-                "title": "Projet CI/CD avec Jenkins",
+                "title": "Project CI/CD with Jenkins",
                 "description": "We worked in a team of four on implementing a pipeline using Jenkins to familiarize ourselves with continuous integration practices. The main goal was to understand the various stages of the software development lifecycle through an automated pipeline: Code, Build, Release, and Operate.",
                 "technologies": [
                     "jenkins",
