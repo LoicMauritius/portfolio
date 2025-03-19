@@ -17,12 +17,12 @@
         "contact": "Contact"
     },
     "projects":{
-        "titres":{
+        "titles":{
             "description": "Description du projet",
             "fonctionnalitées": "Fonctionnalitiés",
             "web": "Projets Web",
             "mobile": "Projets Mobile",
-            "autres": "Autres Projets",
+            "other": "Autres Projets",
             "hobbies": "Loisirs"
         },
         "web": [

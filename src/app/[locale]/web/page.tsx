@@ -7,9 +7,9 @@ export default function Web() {
     const field = 'web';
 
     const t = useTranslations('projects');
-    const title = t('titres.web');
-    const descriptionTitle = t('titres.description');
-    const fonctionnalitiesTitle = t('titres.fonctionnalitées');
+    const title = t('titles.web');
+    const descriptionTitle = t('titles.description');
+    const fonctionnalitiesTitle = t('titles.fonctionnalitées');
     const projects:Project[] = t.raw(field);
 
     return (
