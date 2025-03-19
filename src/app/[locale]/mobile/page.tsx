@@ -1,11 +1,21 @@
 "use client";
 
+import { Project, ProjectsList, Title } from "@/components";
+import { useTranslations } from "next-intl";
+
 export default function Mobile() {
+    const field = 'mobile';
+
+    const t = useTranslations('projects');
+    const title = t('titles.mobile');
+    const descriptionTitle = t('titles.description');
+    const fonctionnalitiesTitle = t('titles.fonctionnalitées');
+    const projects:Project[] = t.raw(field);
+
     return (
-        <>
-            <main>
-                <h1>Mobile projects</h1>
-            </main>
-        </>
+        <div className="h-full w-full flex flex-col items-center gap-10 py-5 md:py-15 md:gap-20">
+            <Title title={title} />
+            <ProjectsList field={field} projects={projects.map(p => ({ ...p, field }))} descriptionTitle={descriptionTitle} fonctionnalitiesTitle={fonctionnalitiesTitle} />
+        </div>
     );
 }
