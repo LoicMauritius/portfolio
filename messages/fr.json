@@ -19,7 +19,7 @@
     "projects":{
         "titles":{
             "description": "Description du projet",
-            "fonctionnalitées": "Fonctionnalitiés",
+            "fonctionnalitées": "Fonctionnalités",
             "web": "Projets Web",
             "mobile": "Projets Mobile",
             "other": "Autres Projets",
