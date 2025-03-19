@@ -49,7 +49,7 @@ export const ProjectDisplayer = ({
                         <div className="flex flex-col gap-3 md:flex-row md:gap-10">
                             <div className="flex flex-col flex-3">
                                 <h3 className="font-title text-2xl md:text-4xl py-3">{fonctionnalitiesTitle}</h3>
-                                <ul className="list-disc md:pt-5">
+                                <ul className="list-disc list-inside md:pt-5">
                                     {fonctionnalitees_principale.map((feature, i) => (
                                         <li className="text-sm md:text-lg" key={i}>{feature}</li>
                                     ))}
@@ -69,7 +69,7 @@ export const ProjectDisplayer = ({
             <div className="flex flex-col px-3 gap-5">
                 <h2 className="text-2xl lg:text-4xl pl-3 font-text">{title}</h2>
                 <div className="flex flex-col gap-5 font-text">
-                    <div className="flex flex-col gap-3 md:flex-row md:gap-10">
+                    <div className="flex flex-col gap-3 md:flex-row md:gap-20">
                         <div className="w-full md:h-auto md:flex-1 flex flex-row gap-5 justify-center">
                             {field !== 'mobile'? 
                                 <Image
@@ -109,7 +109,7 @@ export const ProjectDisplayer = ({
                             </div>
                             <div className="flex flex-col flex-2">
                                 <h3 className="font-title text-2xl md:text-4xl py-3">{fonctionnalitiesTitle}</h3>
-                                <ul className="list-disc md:pt-5">
+                                <ul className="list-disc list-inside md:pt-5">
                                     {fonctionnalitees_principale.map((feature, i) => (
                                         <li className="text-sm md:text-lg" key={i}>{feature}</li>
                                     ))}
