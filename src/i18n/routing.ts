@@ -13,13 +13,13 @@ export const routing = defineRouting({
             en: "/mobile",
             fr: "/mobile"
         },
-        "/hobbie": {
-            en: "/hobbies",
-            fr: "/loisirs"
-        },
         "/other": {
             en: "/others",
             fr: "/autres"
+        },
+        "/hobbie": {
+            en: "/hobbies",
+            fr: "/loisirs"
         },
         "/contact": {
             en: "/contact-me",
@@ -30,4 +30,4 @@ export const routing = defineRouting({
 
 export type Locale = (typeof routing.locales)[number];
 export type Pathnames = keyof typeof routing.pathnames;
-export const navItems: Pathnames[] = ["/", "/web", "/mobile", "/hobbie", "/other", "/contact"];
+export const navItems: Pathnames[] = ["/", "/web", "/mobile", "/other", "/hobbie", "/contact"];
