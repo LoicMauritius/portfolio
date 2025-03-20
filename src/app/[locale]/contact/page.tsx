@@ -4,7 +4,7 @@ import { PageMaintenance } from "@/components";
 import { useTranslations } from "next-intl";
 
 export default function Contact() {
-    const field = 'contact';
+    //const field = 'contact';
 
     const t = useTranslations('projects');
     const title = t('titles.contact');
