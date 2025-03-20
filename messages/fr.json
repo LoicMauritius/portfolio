@@ -23,7 +23,8 @@
             "web": "Projets Web",
             "mobile": "Projets Mobile",
             "other": "Autres Projets",
-            "hobbies": "Loisirs"
+            "hobbie": "Loisirs",
+            "contact": "Contact"
         },
         "web": [
           {
@@ -206,6 +207,7 @@
             ],
             "images": ["jenkins1.png", "jenkins2.png"]
           }
-        ]
+        ],
+        "maintenance": "Page en maintenance... Arrive bientôt"
     }
 }

@@ -1,14 +1,16 @@
 "use client";
 
+import { PageMaintenance } from "@/components";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 
 export default function Contact() {
-    const t = useTranslations('contact');
+    //const field = 'contact';
+
+    const t = useTranslations('projects');
+    const title = t('titles.contact');
+    const maintenanceMessage = t('maintenance');
+
     return (
-        <main>
-            <h1>{t('title')}</h1>
-            <Link href="/">{"Home"}</Link>
-        </main>
+        <PageMaintenance title={title} maintenanceMessage={maintenanceMessage} />
     );
 }
