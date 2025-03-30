@@ -26,7 +26,7 @@ export const ProjectDisplayer = ({
     return (
         <>
             {images.length > 1 && field !== 'mobile'?
-                <div className="flex flex-col px-3 gap-5 md:px-50">
+                <div className="flex flex-col px-3 gap-5 md:px-10">
                     <h2 className="text-2xl lg:text-4xl pl-3 font-text">{title}</h2>
                     <div className="flex flex-col gap-5 font-text max-h-[800px]">
                         <div className="flex flex-col gap-3 md:flex-row md:gap-10">
