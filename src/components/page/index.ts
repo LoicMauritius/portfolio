@@ -6,3 +6,4 @@ export { ProjectDisplayer } from "./ProjectDisplayer";
 export { ProjectsList } from "./ProjectsList";
 export { ProjectSeparator } from "./ProjectSeparator";
 export { Technologies } from "./Technologies";
+export { ContactForm } from "./ContactForm";
