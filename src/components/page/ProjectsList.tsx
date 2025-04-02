@@ -18,9 +18,9 @@ export const ProjectsList = ({
             <div className="w-full flex flex-col">
                 {projects.map((project, index) => (
                     <>
-                        {index !== 0 && <ProjectSeparator key={`${field}-separator-${index}`} />}
+                        {index !== 0 && <ProjectSeparator key={`${field}-separator-${index}-${project.title}`} />}
                         <ProjectDisplayer 
-                            key={`${field}-project-${index}`}
+                            key={`${field}-project-${index}-${project.title}`}
                             field={field}
                             title={project.title}
                             descriptionTitle={descriptionTitle} 

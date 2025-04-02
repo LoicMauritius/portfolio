@@ -6,7 +6,13 @@
         "description": "Here, you will discover all my projects as well as the areas of expertise I have developed throughout my journey in computer science."
     },
     "contact": {
-        "title": "Contact me"
+        "title": "Contact",
+        "personalInformation": "Personal Information",
+        "contactMe": "Contact Me",
+        "form": {
+            "email": "Email",
+            "phone": "Phone"
+        }
     },
     "navigation":{
         "/": "Home",
